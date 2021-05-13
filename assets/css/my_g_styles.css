@@ -1,0 +1,165 @@
+.hero-image{
+    width: 200px;
+    height: auto;
+    margin: 0 auto 40px 0;
+    
+}
+
+.vids_container{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 9px 1px #80808069;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.video_element{
+    
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+
+.point_icon{
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 15px rgb(16 110 234 / 12%);
+    
+    border-radius: 50%;
+    margin-right: 10px;
+
+
+    
+}
+.point_image{
+    width: 80%;
+    height: auto;
+}
+
+.compoenents_item{
+    margin-top: 10px;
+}
+
+.member-img{
+    height: 80px;
+    width: 80px;
+    min-width:  80px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.member-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 400%;
+    margin: auto
+}
+.member{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+}
+.social{
+    display: none;
+}
+
+.cad_etnry{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.cad_etnry span{
+    font-size: 15px;
+    font-weight: 400;
+    color: #aaaaaa;
+
+}
+.cad_image{
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    background-color: white;
+    box-shadow: 0px 6px 15px rgb(16 110 234 / 12%);
+    box-shadow: 0px 0px 10px 1px rgb(16 110 234 / 26%);
+    padding: 10px;
+    border: solid 1px rgba(128, 128, 128, 0.459)
+
+}
+.cad_image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+.cad_text{
+    /* width: 100px; */
+    min-height: 100px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 6px 15px rgb(16 110 234 / 12%);
+    box-shadow: 0px 0px 10px 1px rgb(16 110 234 / 26%);
+    border: solid 1px rgba(128, 128, 128, 0.459);
+
+    padding: 10px;
+    overflow: hidden;
+    margin-left: 10px;
+    text-align: left;
+}
+.seprator{
+    border-bottom: solid 1px rgba(128, 128, 128, 0.432);
+    width: 90%;
+}
+.cad_doanload_link{
+    display: flex;
+
+}
+.cad_doanload_link i{
+    font-size: 30px;
+    position: relative;
+    /* top:-10px; */
+    margin-right: 5px;
+    color: gray;
+
+    
+}
+.cad_doanload_link h4{
+    font-size: 20px;
+    position: relative;
+    top:3px;
+    color: gray;
+    
+    
+}
+
+.report_card{
+    margin: 40px auto 0 auto ;
+    width: 500px !important;
+    max-width: 90%;
+    box-shadow: 0px 0px 10px 4px rgb(16 110 234 / 26%);
+
+}
+
+.card-text{
+    /* margin: 5px !important; */
+    width: 100% !important;
+
+}
